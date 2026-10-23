@@ -27,5 +27,5 @@ jobs:
 
       - name: Verify backup was created
         run: |
-          echo "--- محتویات پوشه بکاپ ---"
+          echo "--- content of BKP folder ---"
           ls -la /tmp/test-backup/
