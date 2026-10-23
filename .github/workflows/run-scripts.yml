@@ -3,18 +3,29 @@ name: Test My Scripts
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # this allows to run manually
+  workflow_dispatch:
 
 jobs:
   run-script:
-    runs-on: ubuntu-latest # github creates a temp Linux srv
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Make script executable
-        run: chmod +x scripts/backup/backup-dir.sh
+      - name: Make all scripts executable
+        run: find scripts -name "*.sh" -exec chmod +x {} \;
+
+      - name: Create dummy directories for testing
+        run: |
+          mkdir -p /tmp/test-source
+          mkdir -p /tmp/test-backup
+          echo "hello world" > /tmp/test-source/hello.txt
 
       - name: Run the backup script
-        run: ./scripts/backup/backup-dir.sh /tmp/test
+        run: ./scripts/backup/backup-dir.sh /tmp/test-source /tmp/test-backup
+
+      - name: Verify backup was created
+        run: |
+          echo "--- محتویات پوشه بکاپ ---"
+          ls -la /tmp/test-backup/
