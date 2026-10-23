@@ -8,7 +8,7 @@
 
 A concise, copy-paste friendly reference of the 100 most important Linux commands for CentOS users, sysadmins, and DevOps engineers.
 
-> **Note:** CentOS 8+ uses `dnf` as the default package manager, but `yum` remains a compatibility alias. All `yum` commands below work on both [citation:3][citation:5].
+> **Note:** CentOS 8+ uses `dnf` as the default package manager, but `yum` remains a compatibility alias. All `yum` commands below work on both .
 
 ---
 
@@ -92,8 +92,8 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 | `chown user:group file` | Change file owner and group |
 | `chown -R apache:apache /var/www` | Recursive ownership change |
 | `passwd` | Change current user password |
-| `useradd username` | Create a new user [citation:1] |
-| `groupadd groupname` | Create a new group [citation:1] |
+| `useradd username` | Create a new user  |
+| `groupadd groupname` | Create a new group  |
 | `groups` | List groups for current user |
 | `umask` | Show default permission mask |
 
@@ -103,21 +103,21 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 
 | Command | Description |
 |---------|-------------|
-| `sudo yum update` | Update all installed packages [citation:3] |
-| `sudo yum install package` | Install a package [citation:5] |
-| `sudo yum remove package` | Remove a package [citation:5] |
-| `sudo yum search keyword` | Search for packages [citation:5] |
-| `yum info package` | Display package information [citation:5] |
-| `yum list installed` | List installed packages [citation:5] |
-| `yum list available` | List available packages [citation:5] |
-| `yum check-update` | Check for available updates [citation:5] |
-| `sudo yum clean all` | Clean all cached data [citation:3] |
-| `sudo yum makecache` | Rebuild metadata cache [citation:3] |
-| `yum history` | Show transaction history [citation:3] |
-| `sudo yum history undo ID` | Undo a transaction by ID [citation:3] |
-| `sudo yum install epel-release` | Install EPEL repository [citation:3] |
-| `sudo yum groupinstall "Development Tools"` | Install a package group [citation:3] |
-| `yum repolist` | List enabled repositories [citation:5] |
+| `sudo yum update` | Update all installed packages  |
+| `sudo yum install package` | Install a package  |
+| `sudo yum remove package` | Remove a package  |
+| `sudo yum search keyword` | Search for packages  |
+| `yum info package` | Display package information  |
+| `yum list installed` | List installed packages  |
+| `yum list available` | List available packages  |
+| `yum check-update` | Check for available updates  |
+| `sudo yum clean all` | Clean all cached data  |
+| `sudo yum makecache` | Rebuild metadata cache  |
+| `yum history` | Show transaction history  |
+| `sudo yum history undo ID` | Undo a transaction by ID  |
+| `sudo yum install epel-release` | Install EPEL repository  |
+| `sudo yum groupinstall "Development Tools"` | Install a package group  |
+| `yum repolist` | List enabled repositories  |
 
 ---
 
@@ -150,7 +150,7 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 | `du -sh * \| sort -h` | Sort directories by size |
 | `free -h` | Display memory usage |
 | `lsblk` | List block devices |
-| `uname -a` | Show system information [citation:7] |
+| `uname -a` | Show system information  |
 | `cat /etc/redhat-release` | Show CentOS version [citation:10] |
 | `uptime` | System uptime and load average |
 | `vmstat 3 5` | Virtual memory stats (5 samples, 3s apart) |
@@ -195,7 +195,7 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 | `crontab -e` | Edit cron jobs |
 | `crontab -l` | List scheduled cron jobs |
 
-> **Note:** On CentOS 6 and earlier, use `service httpd start` and `chkconfig httpd on` instead [citation:9][citation:10].
+> **Note:** On CentOS 6 and earlier, use `service httpd start` and `chkconfig httpd on` instead [citation:10].
 
 ---
 
@@ -204,10 +204,10 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 | Command | Description |
 |---------|-------------|
 | `sudo firewall-cmd --state` | Check firewall status |
-| `sudo firewall-cmd --list-all` | List all firewall rules [citation:9] |
+| `sudo firewall-cmd --list-all` | List all firewall rules  |
 | `sudo firewall-cmd --add-service=http` | Allow HTTP service (runtime) |
-| `sudo firewall-cmd --add-service=http --permanent` | Allow HTTP service (permanent) [citation:9] |
-| `sudo firewall-cmd --add-port=8080/tcp` | Open TCP port 8080 (runtime) [citation:9] |
+| `sudo firewall-cmd --add-service=http --permanent` | Allow HTTP service (permanent)  |
+| `sudo firewall-cmd --add-port=8080/tcp` | Open TCP port 8080 (runtime)  |
 | `sudo firewall-cmd --add-port=8080/tcp --permanent` | Open TCP port 8080 (permanent) |
 | `sudo firewall-cmd --remove-service=http` | Remove HTTP service rule |
 | `sudo firewall-cmd --reload` | Reload firewall rules |
@@ -226,9 +226,9 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 | `sudo !!` | Repeat last command with sudo |
 | `!$` | Reuse last argument of previous command |
 | `^old^new` | Replace typo in previous command |
-| `clear` | Clear terminal screen (or `Ctrl+L`) [citation:2] |
-| `exit` | Close terminal session (or `Ctrl+D`) [citation:2] |
-| `Ctrl+R` | Reverse search command history [citation:2] |
+| `clear` | Clear terminal screen (or `Ctrl+L`)  |
+| `exit` | Close terminal session (or `Ctrl+D`)  |
+| `Ctrl+R` | Reverse search command history  |
 | `xargs` | Build command from stdin (e.g., `ls *.log \| xargs rm`) |
 | `watch -n 2 command` | Run command every 2 seconds |
 | `alias ll='ls -la'` | Create command alias |
@@ -245,10 +245,10 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 | `last` | Show recent login history |
 | `who` | Show currently logged-in users |
 | `w` | Detailed logged-in users and activity |
-| `sudo rpm -qa` | List all installed RPM packages [citation:9] |
+| `sudo rpm -qa` | List all installed RPM packages  |
 | `sudo rpm -Va` | Verify all installed packages |
 | `sudo nmap -sT localhost` | Scan local open ports (install via EPEL) |
-| `sudo rkhunter --check` | Check for rootkits (if installed) [citation:9] |
+| `sudo rkhunter --check` | Check for rootkits (if installed)  |
 
 ---
 
@@ -273,7 +273,7 @@ A concise, copy-paste friendly reference of the 100 most important Linux command
 - `rm -rf` is irreversible — double-check paths before running.
 - Always prefer `sudo yum` over running as root shell.
 - Use `ssh-keygen` + `ssh-copy-id` instead of password logins.
-- On production, avoid `yum update -y` for global updates; update specific packages after testing [citation:3].
+- On production, avoid `yum update -y` for global updates; update specific packages after testing .
 - Test firewall rules with `sudo firewall-cmd --list-all` before `--reload`.
 
 ---
