@@ -1,4 +1,4 @@
-## 🔑 Key Differences: Ubuntu vs CentOS
+## 🔑 Key Differences: Ubuntu vs CentOS 
 
 A complete comparison table for users migrating between the two distributions.
 
