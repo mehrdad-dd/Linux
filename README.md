@@ -1,3 +1,5 @@
+![Tests](https://github.com/mehrdad-dd/Linux/actions/workflows/run-scripts.yml/badge.svg)
+
 # 🐧 Linux Learning Hub
 
 > A hands-on learning hub for Linux administration — cheat sheets, labs, scripts, and troubleshooting guides for Ubuntu & CentOS.
