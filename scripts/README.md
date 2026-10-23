@@ -1,3 +1,5 @@
+![Tests](https://github.com/mehrdad-dd/Linux/actions/workflows/run-scripts.yml/badge.svg)
+
 # 📜 Scripts
 
 Real, tested Bash scripts for daily Linux administration tasks.
