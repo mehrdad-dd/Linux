@@ -1,14 +1,8 @@
 # 🐧 CentOS Linux Command Cheat Sheet
 
-> 100 essential commands for everyday CentOS administration (CentOS 7 / Stream 8+).
+> 100 essential commands for CentOS 7 / Stream 8+.
 
-![CentOS](https://img.shields.io/badge/CentOS-7%20%7C%20Stream%208%2B-932279?style=flat-square&logo=centos&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
-
-A concise, copy-paste friendly reference of the 100 most important Linux commands for CentOS users, sysadmins, and DevOps engineers.
-
-> **Note:** CentOS 8+ uses `dnf` as the default package manager, but `yum` remains a compatibility alias. All `yum` commands below work on both .
+[← Back to Hub](../README.md) | [Ubuntu version →](ubuntu.md)
 ---
 
 ## 📑 Table of Contents
