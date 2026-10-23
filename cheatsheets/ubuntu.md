@@ -1,13 +1,8 @@
 # 🐧 Ubuntu Linux Command Cheat Sheet
 
-> 100 essential commands for everyday Linux administration on Ubuntu 22.04 / 24.04 LTS.
+> 100 essential commands for Ubuntu 22.04 / 24.04 LTS.
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
-
-A concise, copy-paste friendly reference of the 100 most important Linux commands for Ubuntu users, sysadmins, and DevOps engineers.
-
+[← Back to Hub](../README.md) | [CentOS version →](centos.md)
 ---
 
 ## 📑 Table of Contents
