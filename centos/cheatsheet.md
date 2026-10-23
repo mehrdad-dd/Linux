@@ -9,7 +9,9 @@
 A concise, copy-paste friendly reference of the 100 most important Linux commands for CentOS users, sysadmins, and DevOps engineers.
 
 > **Note:** CentOS 8+ uses `dnf` as the default package manager, but `yum` remains a compatibility alias. All `yum` commands below work on both .
-
+jhg lrdrez
+> kjhjhj
+> ljklkj
 ---
 
 ## 📑 Table of Contents
