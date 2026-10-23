@@ -1,4 +1,4 @@
-![Tests](https://github.com/mehrdad-dd/Linux/actions/workflows/run-scripts.yml/badge.svg)
+![Tests](https://github.com/mehrdad-dd/linux-hub/actions/workflows/run-scripts.yml/badge.svg)
 
 # 📜 Scripts
 
